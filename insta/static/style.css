@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 155, 204, 0.79)), to(rgba(0, 69, 204, 0.89)));
+  background: linear-gradient(180deg, rgba(0, 155, 204, 0.79) 0%, rgba(0, 69, 204, 0.89) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.nav-container img {
+  width: 74px;
+  height: 74px;
+}
+
+.nav-container h2 {
+  color: #E3E3E3;
+  font-size: 28px;
+  font-family: 'Salsa', cursive;
+  font-weight: lighter;
+}
+
+.nav {
+  min-height: 10vh;
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2vh;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 555px;
+  height: 442px;
+  background: #D2D2D2;
+  border-radius: 22px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Patua One', cursive;
+  font-weight: lighter;
+  -webkit-box-shadow: 0px 4px 4px 0px #00000040;
+          box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.box .blue {
+  color: #1C61CF;
+}
+
+.box input {
+  padding: 3vh 5vh;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  -webkit-box-shadow: 0px 4px 4px 0px #00000040;
+          box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.box ::-webkit-input-placeholder {
+  font-family: 'Patua One', cursive;
+}
+
+.box :-ms-input-placeholder {
+  font-family: 'Patua One', cursive;
+}
+
+.box ::-ms-input-placeholder {
+  font-family: 'Patua One', cursive;
+}
+
+.box ::placeholder {
+  font-family: 'Patua One', cursive;
+}
+
+.box .download {
+  padding: 10px 20px;
+  border-radius: 6px;
+  outline: none;
+  background: #2685D1;
+  font-size: 13px;
+  font-family: 'Patua One', cursive;
+  border: none;
+  color: #F5F5F5;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.box .download:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.box .donate {
+  font-family: 'Patua One', cursive;
+  font-size: 21px;
+  padding: 10px 45px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background: #2174D0;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.box .donate:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.margin {
+  margin: 2vh 0vh;
+}
+
+.donate-div {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+@media only screen and (max-width: 1000px) {
+  .box {
+    width: 358px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

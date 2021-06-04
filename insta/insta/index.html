@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaReels Downloader</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:ital@1&family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= {% static 'style.css' %}>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <h2>InstaReels</h2>
+            <img src="https://1.bp.blogspot.com/-ddVXnhsv81E/YLUGZ6_9xDI/AAAAAAAAAZc/FLzsWjvaciwJJLbgGojuWPSLZEsbNI2kwCLcBGAsYHQ/s800/%25E2%2580%2594Pngtree%25E2%2580%2594instagram%2Bicon%2Binstagram%2Blogo_3560510.png"
+                alt="">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <h2 class="margin">Download Reels Video</h2>
+            <h2 class="blue margin">Enter Your url</h2>
+            <input type="text" class="input margin" placeholder="https://instgram.com/sdhkfdpgodbgkw/s......">
+            <button class="download margin">Download</button>
+            <div class="donate-div margin">
+            <button class="donate">Donate</button>
+            <p>To pay server fees</p>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src={% static 'app.js' %}></script>
+
+</html>
